@@ -1,6 +1,8 @@
 version: '3'
 services:
   web:
-    image: myapp
+    image: myapp  # Replace with your image name
     ports:
-      - "8081:80" # Map host port 8082 to container port 80
+      - "8081:80"  # Map port 8081 on the host to port 80 in the container
+    restart: always  # Automatically restart the container if it stops
+    # You can add other configurations as needed, like volumes or environment variables
