@@ -11,6 +11,6 @@ RUN chmod +x /usr/local/bin/replace_container.sh
 EXPOSE 80
 
 # The command to run Nginx
-CMD ["/usr/local/bin/replace_container.sh;"]
+CMD ["replace_container.sh;"]
 CMD ["nginx", "-g", "daemon off;"]
 
