@@ -53,7 +53,7 @@ Jenkins by default runs on port `8080`. You can access it using the public IP of
 
 ### 3. Fork the Amazon Clone Repository
 
-Fork my [Amazon Clone Repository](https://github.com/Srijai1908/amazon_clone) into your GitHub account.
+Fork my [Amazon Clone Repository](https://github.com/Srijai1908/amazon_clone_devopscicd) into your GitHub account.
 
 ### 4. Integrate GitHub with Jenkins
 
